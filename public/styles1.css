@@ -1,0 +1,62 @@
+/* Header styles */
+.header {
+    background: linear-gradient(45deg, #ff00cc, #3333ff);
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 60px; /* Adjust to accommodate footer height */
+}
+
+/* Developer styles */
+.developer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.developer-info {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.developer-info:hover {
+    transform: scale(1.05);
+}
+
+.developer-info img {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+.footer {
+    background: linear-gradient(45deg, #3333ff, #ff00cc);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Ensure minimum height to push footer to bottom */
+}
